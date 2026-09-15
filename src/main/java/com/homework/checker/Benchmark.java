@@ -4,8 +4,6 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * 性能基准测试（用于性能分析，不参与评测流程）。
- *
  * <p>用法：java -cp main.jar com.homework.checker.Benchmark [原文] [抄袭版] [迭代次数]</p>
  *
  * <p>输出：各阶段（读取/分词/向量化/余弦计算）的平均耗时与总耗时，
